@@ -1,0 +1,17 @@
+{
+  "name": "craft-text-detector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ismail codar",
+  "license": "MIT",
+  "scripts": {
+    "model-craft-text-detector": "tensorflowjs_converter --input_format=tf_hub 'https://tfhub.dev/tulasiram58827/craft-text-detector' model"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "typescript": "^4.5.2"
+  }
+}
